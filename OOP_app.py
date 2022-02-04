@@ -262,7 +262,7 @@ class Application(Frame):
             i=i+1
             if i>15:
                 break
-        print(type(animes_recommended))
+        
         rec_df=pd.DataFrame(animes_recommended,columns=['recomendation'])
         self.clear_tree2()
         #print(rec_df)
