@@ -1,5 +1,5 @@
 # Anime_recomm
-## Pack & librarys used
+## Pack & libraries used
 - pandas
 - sklearn
 - bs4(Beautiful soup)
