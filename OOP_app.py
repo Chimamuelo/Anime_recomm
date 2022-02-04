@@ -46,7 +46,7 @@ class Application(Frame):
         #bind this to left click
         self.tree.bind("<Button-3>",self.left_click)
         self.tree2=Treeview(self.master)
-        self.tree2.bind("<Button-3>",self.left_click)
+        #self.tree2.bind("<Button-3>",self.left_click)
 
         
         #ADD a scrollingbar in y axis(attached to the anime df)
